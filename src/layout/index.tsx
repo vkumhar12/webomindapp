@@ -25,9 +25,13 @@ export default function PublicLayout({
         <meta property="og:image" content={ogImage} />
       </Head>
       <main>
-        <Navbar />
+        <div>
+          <Navbar />
+        </div>
         {children}
-        <Footer />
+        <div>
+          <Footer />
+        </div>
       </main>
     </>
   );

@@ -2,7 +2,7 @@ import { gsap } from "gsap";
 import Image from "next/image";
 import { useEffect } from "react";
 
-export default function OverlappingImages() {
+export default function ImageCards() {
   useEffect(() => {
     gsap.from(".card", {
       y: 50,
